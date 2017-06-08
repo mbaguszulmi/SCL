@@ -1,23 +1,23 @@
 <!-- Paste this before closing head tags -->
-<script type=’text/javascript’>
+<script type='text/javascript'>
 //<![CDATA[
 jQuery(document).ready(function ($) {
-$(‘#default-usage .to-lock’).sociallocker({
+$('#default-usage .to-lock').sociallocker({
 
-buttons: {order:[“facebook-like“,”twitter-tweet“,”google-plus“]}, //*1
+buttons: {order:["facebook-like","twitter-tweet","google-plus"]}, //*1
 
-twitter: {url:”http://twitter.com/YOUR_TWITTER_URL“}, //fill with your twitter url
-facebook: {url:”https://www.facebook.com/YOUR_FB“}, //fill with your fb page url
-google: {url:”https://plus.google.com/YOUR_GOOGLE_PLUS“}, //fill with your google plus url
+twitter: {url:"http://twitter.com/YOUR_TWITTER_URL"}, //fill with your twitter url
+facebook: {url:"https://www.facebook.com/YOUR_FB"}, //fill with your fb page url
+google: {url:"https://plus.google.com/YOUR_GOOGLE_PLUS"}, //fill with your google plus url
 
 text: {
-header: “Like us To Unlock This Content“, //This is the header or title
-message: “This content is locked. Like us on Facebook, Twitter or Google plus to unlock it.” //This is the message
+header: "Like us To Unlock This Content", //This is the header or title
+message: "This content is locked. Like us on Facebook, Twitter or Google plus to unlock it." //This is the message
 },
 
 locker: {close: false, timer: 0,},
 
-theme: “flat” //*2
+theme: "flat" //*2
 
 });
 });
@@ -25,5 +25,5 @@ theme: “flat” //*2
 </script>
 <!-- Note -->
 <!-- *1 this part will describe social locker button which appear. You can delete some parts which is no need to lock content.
-complete value for buttons is "facebook-like",“facebook-share“,“google-plus“,“google-share“,“twitter-tweet“,“twitter-follow“,“linkedin-share“
+complete value for buttons is "facebook-like","facebook-share","google-plus","google-share","twitter-tweet","twitter-follow","linkedin-share"
 *2 You can chnge this theme. Available theme is flat, glass, starter, secrets, dandish -->
