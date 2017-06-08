@@ -1,0 +1,6 @@
+<!-- Place this code whenever you want a locker appear -->
+<article id="default-usage">
+<div class="to-lock" style="display:none;">
+YOUR SECRET CONTENT
+</div>
+</article>
